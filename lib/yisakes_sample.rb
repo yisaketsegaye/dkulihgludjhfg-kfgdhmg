@@ -1,5 +1,10 @@
 require "yisakes_sample/version"
 
 module YisakesSample
-  # Your code goes here...
+  class Translater
+
+  def translate
+    `say hellllllo`
+  end
+ end 
 end
